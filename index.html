@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SpreadJS预算编制系统</title>
+  <link type="text/css" rel="stylesheet" href="https://cdn.grapecity.com.cn/SpreadJS/package-contents/16.2.5/spread-sheets/styles/gc.spread.sheets.excel2013white.css" />
+  <link type="text/css" rel="stylesheet" href="https://cdn.grapecity.com.cn/SpreadJS/package-contents/16.2.5/spread-sheets-designer/styles/gc.spread.sheets.designer.min.css" />
+  <script src="https://cdn.grapecity.com.cn/SpreadJS/package-contents/16.2.5/spread-sheets/dist/gc.spread.sheets.all.min.js"></script>
+  <script src="https://cdn.grapecity.com.cn/SpreadJS/package-contents/16.2.5/spread-sheets-charts/dist/gc.spread.sheets.charts.min.js"></script>
+  <script src="https://cdn.grapecity.com.cn/SpreadJS/package-contents/16.2.5/spread-sheets-shapes/dist/gc.spread.sheets.shapes.min.js"></script>
+  <script src="https://cdn.grapecity.com.cn/SpreadJS/package-contents/16.2.5/spread-sheets-slicers/dist/gc.spread.sheets.slicers.min.js"></script>
+  <script src="https://cdn.grapecity.com.cn/SpreadJS/package-contents/16.2.5/spread-sheets-print/dist/gc.spread.sheets.print.min.js"></script>
+  <script src="https://cdn.grapecity.com.cn/SpreadJS/package-contents/16.2.5/spread-sheets-barcode/dist/gc.spread.sheets.barcode.min.js"></script>
+  <script src="https://cdn.grapecity.com.cn/SpreadJS/package-contents/16.2.5/spread-sheets-pdf/dist/gc.spread.sheets.pdf.min.js"></script>
+  <script src="https://cdn.grapecity.com.cn/SpreadJS/package-contents/16.2.5/spread-sheets-pivot-addon/dist/gc.spread.pivot.pivottables.min.js"></script>
+  <script src="https://cdn.grapecity.com.cn/SpreadJS/package-contents/16.2.5/spread-sheets-tablesheet/dist/gc.spread.sheets.tablesheet.min.js"></script>
+  <script src="https://cdn.grapecity.com.cn/SpreadJS/package-contents/16.2.5/spread-excelio/dist/gc.spread.excelio.min.js"></script>
+  <script src="https://cdn.grapecity.com.cn/SpreadJS/package-contents/16.2.5/spread-sheets-io/dist/gc.spread.sheets.io.min.js"></script>
+  <script src="https://cdn.grapecity.com.cn/SpreadJS/package-contents/16.2.5/spread-sheets-resources-zh/dist/gc.spread.sheets.resources.zh.min.js"></script>
+  <script src="https://cdn.grapecity.com.cn/SpreadJS/package-contents/16.2.5/spread-sheets-designer-resources-cn/dist/gc.spread.sheets.designer.resource.cn.min.js"></script>
+  <script src="https://cdn.grapecity.com.cn/SpreadJS/package-contents/16.2.5/spread-sheets-designer/dist/gc.spread.sheets.designer.all.min.js"></script>
+  <script>    
+    GC.Spread.Common.CultureManager.culture('zh-cn')
+    window.GC = GC
+  </script>
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WFNBSLH');
+</script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+  <script>
+
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-98623245-5', { 'allowAnchor': true });
+    ga('send', 'pageview', { 'page': location.pathname + location.search + location.hash });
+
+  </script>
+</body>
+
+</html>
